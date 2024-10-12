@@ -1,3 +1,9 @@
+/*You are a database administrator. You want to use the data to answer afewquestions about your customers, 
+especially about the sales and profit comingfrom different states, money spent in marketing and various other factors
+suchasCOGS (Cost of Goods Sold), budget profit etc. You plan on using theseinsightsto help find out which
+items are being sold the most. You have beenprovidedwith the sample of the overall customer data due to privacy issues. 
+But youhopethat these samples are enough for you to write fully functioning SQLqueriestohelp answer the questions.*/
+
 create database KUNAL_BATCH
 USE KUNAL_BATCH
 
@@ -123,7 +129,7 @@ INTERSECT
 SELECT AREA_CODE FROM LOCATION
 
 /*25. Create a user-defined function for the product table to fetch a particular product type 
-based upon the user’s preference.*/
+based upon the userâ€™s preference.*/
 
 CREATE FUNCTION PROD_TABLE (@PRODUCT_TYPE VARCHAR(40))
 RETURNS TABLE AS 
