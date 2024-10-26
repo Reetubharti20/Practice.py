@@ -4,8 +4,6 @@ suchasCOGS (Cost of Goods Sold), budget profit etc. You plan on using theseinsig
 items are being sold the most. You have beenprovidedwith the sample of the overall customer data due to privacy issues. 
 But youhopethat these samples are enough for you to write fully functioning SQLqueriestohelp answer the questions.*/
 
-create database KUNAL_BATCH
-USE KUNAL_BATCH
 
 SELECT *FROM FACT
 SELECT * FROM LOCATION
