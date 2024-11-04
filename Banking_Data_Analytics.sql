@@ -1,4 +1,26 @@
-use practice;
+--use practice;
+
+/*Developed an end-to-end SQL-based analytics solution for analyzing customer lifetime value,
+loan risk, customer retention, and fraud detection. 
+This system consolidated key banking metrics and provided actionable insights for management and risk teams.*/
+
+/*Customer Lifetime Value Analysis: 
+Wrote SQL queries to calculate customer lifetime value (CLV) by aggregating transaction history, loan repayments, 
+and product holdings. 
+This data helped identify high-value customers for targeted retention and cross-sell strategies.*/
+
+/* Loan Delinquency and Risk Reporting: 
+Created automated SQL scripts to monitor loan performance, identifying overdue loans across customer segments, 
+branches, and loan types. This reporting improved the risk team’s ability to proactively manage delinquency.*/
+
+/*Customer Retention and Engagement Dashboard: 
+Built SQL views and aggregates to analyze customer activity (e.g., transaction frequency, balance levels).*/
+
+/*Branch Performance Metrics: 
+Developed SQL queries to generate reports on branch performance by total deposits, loan disbursements, 
+and revenue, segmented by region and time period. These insights supported decision-making 
+for resource allocation and branch optimization.*/
+
 
 create table Customers(
 Customer_ID Varchar(11) primary key, 
